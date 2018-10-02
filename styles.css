@@ -1,1 +1,54 @@
 /* CSS Here */
+
+#descriptionbox{
+  text: 14px Times;
+  background-color: rgb(182, 182, 182);
+  padding: 20px;
+  float:left;
+  margin: 15px;
+  width: 70%;
+  
+}
+
+/**The recommended video section  **/
+.recommendedvids{
+  width: 200 px;
+  height: 100 px;
+  background-color: rgb(146, 146, 216);
+  padding: 20 px;
+  margin: 10px;
+}
+
+section,
+aside,
+footer,
+form {
+  display: block;
+}
+
+section {
+  float:left;
+  margin: 15px;
+  width: 70%;
+}
+
+aside {
+  float:right;
+  width: 20%;
+}
+header {
+  display:inline-block;
+  top:0;
+  width:100%;
+  padding: 30px;
+}
+
+footer {
+  position:absolute;
+  bottom: 0;
+  width:100%;
+}
+
+form {
+  display:inline;
+}
